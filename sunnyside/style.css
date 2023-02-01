@@ -92,12 +92,18 @@ ul li a:hover {
     margin-top: 80px;
 }
 
+
+
+
+
+
+
 #sec1 {
     display: flex;
     flex-direction: row-reverse;
 }
 
-#sec1 picture img, #sec picture {
+#sec1 picture img, #sec1 picture {
     max-width: 50vw;
 }
 
@@ -140,6 +146,56 @@ ul li a:hover {
     letter-spacing: 0.1em;
 }
 
+
+/* SEC2 */
+
+#sec2 {
+    display: flex;
+    flex-direction: row-reverse;
+}
+
+#sec2 picture img, #sec2 picture {
+    max-width: 50vw;
+}
+
+#art2 {
+    max-width: 50vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#art2 div { 
+    width: 400px;
+}
+
+#art2 {
+    width: 50vw;
+}
+
+#art2 div h2 {
+    color: hsl(212, 27%, 19%);
+    width: 280px;
+    margin-bottom: 20px;
+    font-size: 2em;
+}
+
+#art2 div p {
+    margin-bottom: 20px;
+    font-weight: 600;
+    color: hsl(210, 4%, 67%);
+    line-height: 1.5em;
+}
+
+#art2 div button {
+    border: none;
+    background-color: transparent;
+    border-bottom: 5px solid orange;
+    cursor: pointer;
+    text-transform: uppercase;
+    font-weight: 800;
+    letter-spacing: 0.1em;
+}
 
 
 
